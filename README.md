@@ -19,18 +19,16 @@ is to provide a lag-free and smooth experience.
 * [Wiki](https://github.com/intellectualcrafters/plotsquared/wiki)
 
 ## Downloads
-### 1.13+ (Pre-Release)
-* [Download](https://github.com/IntellectualSites/PlotSquared/releases/tag/4.0-pre-breaking)
+### 1.13+
+* [Download](https://ci.athion.net/job/PlotSquared-Releases/)
 * [Jenkins](https://ci.athion.net/job/PlotSquared-Breaking/)
+*[JavaDoc](https://ci.athion.net/job/PlotSquared-Breaking/javadoc/)
 
 ### <1.12.2
-* [Download](https://github.com/IntellectualSites/PlotSquared/releases/tag/dev)
-* [Jenkins](https://ci.athion.net/job/PlotSquared/)
+* [Download](https://ci.athion.net/job/PlotSquared-Legacy/)
+* [Jenkins](https://ci.athion.net/job/PlotSquared-Legacy/)
+* [JavaDoc](https://ci.athion.net/job/PlotSquared-Legacy/javadoc/)
 
-
-### Developer Resources
-* [Java Docs](http://empcraft.com/plotsquared/doc/)
-* [Maven Repo](http://ci.athion.net/job/PlotSquared/ws/mvn/)
 * [API Documentation](https://github.com/IntellectualSites/PlotSquared/wiki/Developer-documentation-(WIP))
 
 # Building
@@ -59,6 +57,6 @@ Suggestions are welcome! We have a separate issue tracker for suggestions, that 
 # Sponsors
 <p align="center"><a href="https://incendo.org" title="Incendo"><img width="160" height="160" src="https://i.imgur.com/zjRmJkw.png"/></a></p>
 <p align="center"><a href="https://www.jetbrains.com/idea/" title="IntelliJ IDEA"><img height="100" src="https://i.imgur.com/xa2XsRN.png"/></a></p>
-<p align="center"><a href="https://www.athion.net/" title="Athion network"><img height="200" src="https://i.imgur.com/DQ67xcp.jpg"/></a></p>
+<p align="center"><a href="https://www.athion.net/" title="Athion network"><img height="200" src="https://i.imgur.com/Z4E1Hcb.png"/></a></p>
 <p align="center"><a href="https://www.buildersrefuge.com/" title="Builder's Refuge"><img height="200" src="https://i.imgur.com/mjT5Ogz.png"/></a></p>
 <p align="center"><a href="https://ajgaming.net/" title="AJGaming"><img height="100" src="https://ajgaming.net/images/AJGaming.png"/></a></p>

@@ -42,8 +42,8 @@ public class Settings extends Config {
         save(file, Settings.class);
     }
 
-    public static void load(File file) {
-        load(file, Settings.class);
+    public static boolean load(File file) {
+        return load(file, Settings.class);
     }
 
     public static boolean convertLegacy(File file) {
@@ -203,6 +203,7 @@ public class Settings extends Config {
     
     @Comment("General settings") public static final class General {
         @Comment("Display scientific numbers (4.2E8)") public static boolean SCIENTIFIC = false;
+        @Comment("Replace wall when merging") public static boolean MERGE_REPLACE_WALL = true;
     }
 
     @Comment("Schematic Settings") public static final class Schematics {
@@ -351,5 +352,8 @@ public class Settings extends Config {
         public static boolean DATABASE_PURGER = false;
         @Comment("Delete plots when a player is banned")
         public static boolean BAN_DELETER = false;
+        @Comment({"Disable FAWE optimizations for P2",
+            "  !!Do not set to true if using P2 worlds and instructed to do so"})
+        public static boolean DISABLE_FAWE_OPTIMIZATION = false;
     }
 }
